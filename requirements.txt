@@ -1,0 +1,10 @@
+numpy
+pandas
+pyarrow
+polars
+scikit-learn
+xgboost
+joblib
+matplotlib
+seaborn
+pytest
