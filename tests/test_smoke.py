@@ -1,5 +1,6 @@
 """Smoke and sanity tests for the Network Intrusion Detection System."""
 
+import sys
 from pathlib import Path
 
 import pandas as pd
@@ -7,6 +8,8 @@ from sklearn.compose import ColumnTransformer
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from praquet_converter import convert_csv_to_parquet
 
