@@ -4,7 +4,8 @@ pyarrow
 polars
 scikit-learn
 xgboost
-joblib
 matplotlib
 seaborn
+joblib
+tensorflow
 pytest
